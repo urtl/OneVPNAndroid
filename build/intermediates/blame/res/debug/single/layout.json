@@ -1,0 +1,146 @@
+[
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/layout/vpnstatus.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/layout/vpnstatus.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/layout/file_dialog_inline.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/layout/file_dialog_inline.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/layout/dialog_menu.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/layout/dialog_menu.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/layout/file_dialog_row.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/layout/file_dialog_row.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/layout/activity_connect_status.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/layout/activity_connect_status.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/layout/progress_hud.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/layout/progress_hud.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/layout/dialog_exit.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/layout/dialog_exit.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/layout/dialog_forgot.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/layout/dialog_forgot.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/layout/list_server_item.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/layout/list_server_item.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/layout/basic_settings.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/layout/basic_settings.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/layout/file_dialog_main.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/layout/file_dialog_main.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/layout/activity_setting_screen.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/layout/activity_setting_screen.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/layout/sam.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/layout/sam.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/layout/spinneritem.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/layout/spinneritem.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/layout/keystore_selector.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/layout/keystore_selector.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/layout/vpn_profile_list.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/layout/vpn_profile_list.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/layout/activity_choose_server.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/layout/activity_choose_server.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/layout/faq.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/layout/faq.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/layout/viewconfig.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/layout/viewconfig.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/layout/vpn_list_item.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/layout/vpn_list_item.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/layout/fragment_senddump.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/layout/fragment_senddump.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/layout/spinner_item.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/layout/spinner_item.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/layout/dash_line.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/layout/dash_line.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/layout/userpass.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/layout/userpass.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/layout/dialog_credential.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/layout/dialog_credential.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/layout/activity_splash.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/layout/activity_splash.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/layout/fragment_main.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/layout/fragment_main.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/layout/activity_signup.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/layout/activity_signup.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/layout/activity_about.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/layout/activity_about.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/layout/dotted.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/layout/dotted.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/layout/file_select.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/layout/file_select.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/layout/about.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/layout/about.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/layout/list_item.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/layout/list_item.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/layout/activity_webview.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/layout/activity_webview.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/layout/file_dialog.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/layout/file_dialog.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/layout/logwindow.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/layout/logwindow.xml"
+    }
+]

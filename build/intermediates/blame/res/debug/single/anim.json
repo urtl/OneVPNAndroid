@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/anim/slide_in.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/anim/slide_in.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/anim/fade_out.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/anim/fade_out.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/anim/slide_out.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/anim/slide_out.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/anim/slide_dialog_in_left.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/anim/slide_dialog_in_left.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/anim/slide_dialog_out_right.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/anim/slide_dialog_out_right.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/anim/slide_in1.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/anim/slide_in1.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/anim/slide_in_right.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/anim/slide_in_right.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/anim/slide_out_right.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/anim/slide_out_right.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/anim/spinner.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/anim/spinner.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/anim/ani_in.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/anim/ani_in.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/anim/slide_out_left.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/anim/slide_out_left.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/anim/fade_in.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/anim/fade_in.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/anim/slide_out1.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/anim/slide_out1.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/anim/ani_out.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/anim/ani_out.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/anim/slide_in_left.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/anim/slide_in_left.xml"
+    }
+]

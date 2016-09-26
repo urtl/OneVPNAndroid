@@ -1,0 +1,5 @@
+<root>
+  <item name='android.net.wifi.WifiManager android.net.wifi.WifiInfo getConnectionInfo()'>
+    <annotation name='android.support.annotation.NonNull' />
+  </item>
+</root>

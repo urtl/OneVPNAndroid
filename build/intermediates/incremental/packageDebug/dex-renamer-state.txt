@@ -1,0 +1,7 @@
+#Mon Sep 26 13:12:10 PKT 2016
+base.0=/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_f901f8b660f13c8a3aca534d96f7207f58c10752
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_874c1c3a0e4f3656f4040e7c1d1c9e045b9fd8e4/classes.dex
+base.1=/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_874c1c3a0e4f3656f4040e7c1d1c9e045b9fd8e4
+file.0=/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_f901f8b660f13c8a3aca534d96f7207f58c10752/classes.dex

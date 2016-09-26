@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-ldpi-v4/btn_location_background.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-ldpi/btn_location_background.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-ldpi-v4/btn_connect_background.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-ldpi/btn_connect_background.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-ldpi-v4/spinner_background.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-ldpi/spinner_background.xml"
+    }
+]

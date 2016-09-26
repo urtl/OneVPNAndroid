@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/menu/import_menu.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/menu/import_menu.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/menu/menu.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/menu/menu.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/menu/vpnpreferences_menu.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/menu/vpnpreferences_menu.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/menu/configmenu.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/menu/configmenu.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/menu/logmenu.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/menu/logmenu.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/menu/main.xml"
+    }
+]

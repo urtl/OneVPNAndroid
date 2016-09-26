@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    api-level="22"
+    density="hdpi"
+    format="8"
+    plugin-version="2.2.0"
+    timestamp="8512886518932"
+    token="-7489110305393156594"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="10330" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="5856" />
+    <task
+        name="verifier"
+        duration="6038" />
+
+    <artifact
+        location="/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/outputs/apk/OneVPN-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="8512886518932"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/outputs/apk/OneVPN-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/xml/vpn_ipsettings.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/xml/vpn_ipsettings.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/xml/general_settings.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/xml/general_settings.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/xml/vpn_routing.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/xml/vpn_routing.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/xml/vpn_headers.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/xml/vpn_headers.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/xml/vpn_obscure.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/xml/vpn_obscure.xml"
+    }
+]

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#55a0a0a0">
+
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:background="@drawable/png_exitpopup_background"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EXIT"
+            android:textSize="20sp"
+            android:textColor="#ffffff"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ffffff"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:text="Are you sure you want to exit?"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:gravity="center"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+            <Button
+                android:id="@+id/btnExitYes"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:background="@drawable/dialog_button_select_background"
+                android:text="Yes"
+                android:textColor="#ffffff"/>
+            <Button
+                android:id="@+id/btnExitNo"
+                android:layout_marginLeft="60dp"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:background="@drawable/dialog_button_unselect_background"
+                android:text="No"
+                android:textColor="#ffffff"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

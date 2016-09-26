@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/libs/httpcore-4.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="11393498b38e9695d0850cac26fde5613ae268b9">
+        <dex dex="/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/transforms/dex/debug/folders/1000/2/httpcore-4.3_3869b58ae76ace686c48fadf723b09c489c75774/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/libs/com.sun.mail_1.4.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2ead306974cfd8eaffddce2f1ab747a7455a4aec">
+        <dex dex="/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/transforms/dex/debug/folders/1000/2/com.sun.mail_1.4.2_9948d9afc6696c8c4119534c56a0de889242457f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/libs/httpmime-4.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5b0002c5fb66867ca919be0fbd86de1cfaf76da7">
+        <dex dex="/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/transforms/dex/debug/folders/1000/2/httpmime-4.3_39bb7a0c90e97734ced71e375af5ad32b982bbf3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/libs/sun.misc.BASE64Decoder.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="acd93e3727886196f9b8434279ff445ba8611186">
+        <dex dex="/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/transforms/dex/debug/folders/1000/2/sun.misc.BASE64Decoder_375f895a4f996ebb127de07612d294dc60c845b7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/libs/android-support-v4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ded9acc6a9792b8f1afc470f0c9cd36d178914cd">
+        <dex dex="/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/transforms/dex/debug/folders/1000/2/android-support-v4_44a29967e0d9b513c8683fbb13942558bcf707bb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ded074704692fc2734f1aad1a4f7df7804ab3926">
+        <dex dex="/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_f901f8b660f13c8a3aca534d96f7207f58c10752/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="baa172ba6817f75045860b68fca2eeedadcf8339">
+        <dex dex="/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_874c1c3a0e4f3656f4040e7c1d1c9e045b9fd8e4/classes.dex" />
+    </item>
+
+</items>

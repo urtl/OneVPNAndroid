@@ -1,0 +1,1014 @@
+[
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/greenland.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/greenland.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/estonia.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/estonia.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/hong_kong.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/hong_kong.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/uruguay.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/uruguay.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/coral_sea_islands.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/coral_sea_islands.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/kiribati.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/kiribati.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/french_polynesia.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/french_polynesia.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/sri_lanka.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/sri_lanka.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/iran.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/iran.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/europa_island.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/europa_island.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/usa.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/usa.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/hungary.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/hungary.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/timor_leste.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/timor_leste.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/guadeloupe.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/guadeloupe.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/morocco.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/morocco.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/mongolia.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/mongolia.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/bonaire.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/bonaire.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/south_africa.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/south_africa.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/christmas_island.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/christmas_island.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/scotland.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/scotland.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/saint_helena.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/saint_helena.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/cocos_islands.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/cocos_islands.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/austria.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/austria.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/iceland.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/iceland.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/angola.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/angola.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/slovenia.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/slovenia.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/faroe_islands.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/faroe_islands.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/el_salvador.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/el_salvador.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/catalonia.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/catalonia.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/malawi.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/malawi.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/vanuatu.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/vanuatu.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/seychelles.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/seychelles.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/bulgaria.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/bulgaria.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/collectivity_of_saint_martin.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/collectivity_of_saint_martin.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/dhekelia.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/dhekelia.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/sweden.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/sweden.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/colombia.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/colombia.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/andorra.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/andorra.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/togo.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/togo.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/bahamas.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/bahamas.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/montserrat.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/montserrat.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/madagascar.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/madagascar.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/south_korea.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/south_korea.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/united_arab_emirates.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/united_arab_emirates.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/jamaica.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/jamaica.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/nigeria.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/nigeria.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/anguilla.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/anguilla.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/wales.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/wales.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/bolivia.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/bolivia.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/aland_islands.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/aland_islands.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/sao_tome_and_principe.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/sao_tome_and_principe.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/argentina.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/argentina.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/somalia.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/somalia.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/tanzania.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/tanzania.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/kazakhstan.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/kazakhstan.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/comoros.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/comoros.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/new_zealand.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/new_zealand.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/cameroon.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/cameroon.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/monaco.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/monaco.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/san_jose.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/san_jose.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/mozambique.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/mozambique.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/algeria.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/algeria.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/china.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/china.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/serbia.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/serbia.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/benin.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/benin.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/cyprus.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/cyprus.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/liechtenstein.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/liechtenstein.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/jordan.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/jordan.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/dominca.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/dominca.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/spain.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/spain.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/jersey.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/jersey.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/wallisian_and_futunan.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/wallisian_and_futunan.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/curacao.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/curacao.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/fiji.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/fiji.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/australia.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/australia.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/azerbaijan.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/azerbaijan.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/kuwait.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/kuwait.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/ukraine.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/ukraine.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/congo.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/congo.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/grenada.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/grenada.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/barthelemy.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/barthelemy.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/qatar.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/qatar.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/south_sudan.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/south_sudan.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/djibouti.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/djibouti.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/bangladesh.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/bangladesh.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/kenya.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/kenya.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/belarus.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/belarus.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/samoa.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/samoa.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/guam.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/guam.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/malta.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/malta.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/marshall_islands.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/marshall_islands.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/united_kingdom.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/united_kingdom.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/cape_verde.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/cape_verde.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/saudi_arabia.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/saudi_arabia.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/honduras.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/honduras.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/palau.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/palau.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/gibraltar.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/gibraltar.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/namibia.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/namibia.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/french_guiana.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/french_guiana.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/british_indian_ocean_territory.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/british_indian_ocean_territory.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/nauru.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/nauru.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/oman.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/oman.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/myanmar.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/myanmar.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/czech_republic.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/czech_republic.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/malaysia.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/malaysia.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/antarctica.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/antarctica.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/singapore.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/singapore.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/guinea.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/guinea.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/croatia.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/croatia.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/liberia.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/liberia.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/england.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/england.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/yukon_territory.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/yukon_territory.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/lesotho.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/lesotho.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/ireland.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/ireland.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/netherlands_antilles.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/netherlands_antilles.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/armenia.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/armenia.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/denmark.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/denmark.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/libya.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/libya.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/tokelau.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/tokelau.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/antigua_and_barbuda.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/antigua_and_barbuda.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/western_sahara.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/western_sahara.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/romania.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/romania.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/vietnam.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/vietnam.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/eritrea.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/eritrea.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/taiwan.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/taiwan.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/cayman_islands.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/cayman_islands.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/turkmenistan.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/turkmenistan.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/senegal.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/senegal.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/niue.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/niue.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/zambia.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/zambia.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/israel.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/israel.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/switzerland.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/switzerland.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/slovakia.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/slovakia.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/ethiopia.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/ethiopia.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/central_african_republic.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/central_african_republic.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/chad.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/chad.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/nepal.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/nepal.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/saint_lucia.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/saint_lucia.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/belize.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/belize.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/tuvalu.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/tuvalu.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/uzbekistan.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/uzbekistan.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/burkina_faso.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/burkina_faso.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/south_georgia.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/south_georgia.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/burundi.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/burundi.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/germany.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/germany.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/japan.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/japan.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/macau.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/macau.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/maldives.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/maldives.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/egypt.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/egypt.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/st_maarten.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/st_maarten.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/north_korea.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/north_korea.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/saint_kitts_and_nevis.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/saint_kitts_and_nevis.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/albania.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/albania.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/canada.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/canada.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/bermuda.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/bermuda.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/cuba.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/cuba.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/russia.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/russia.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/cook_islands.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/cook_islands.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/brunei.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/brunei.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/reunion.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/reunion.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/akrotiri.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/akrotiri.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/norway.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/norway.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/uganda.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/uganda.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/kyrgyzstan.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/kyrgyzstan.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/guyana.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/guyana.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/moldova.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/moldova.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/laos.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/laos.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/solomon_islands.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/solomon_islands.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/italy.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/italy.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/paraguay.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/paraguay.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/montenegro.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/montenegro.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/pitcairn_island.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/pitcairn_island.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/thailand.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/thailand.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/us_virgin_islands.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/us_virgin_islands.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/peru.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/peru.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/british_virgin_islands.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/british_virgin_islands.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/guinea_bissau.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/guinea_bissau.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/falkland_islands.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/falkland_islands.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/europeanunion.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/europeanunion.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/iraq.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/iraq.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/swaziland.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/swaziland.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/syria.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/syria.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/belgium.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/belgium.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/bosnia_and_herzegovina.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/bosnia_and_herzegovina.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/chile.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/chile.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/aruba.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/aruba.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/yemen.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/yemen.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/ecuador.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/ecuador.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/papua_new_guinea.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/papua_new_guinea.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/cote_d_ivoire.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/cote_d_ivoire.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/finland.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/finland.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/bouvet_island.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/bouvet_island.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/ghana.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/ghana.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/norfolk_island.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/norfolk_island.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/puerto_rican.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/puerto_rican.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/san_marino.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/san_marino.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/nicaragua.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/nicaragua.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/panama.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/panama.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/macedonia.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/macedonia.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/haiti.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/haiti.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/turkey.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/turkey.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/france.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/france.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/luxembourg.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/luxembourg.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/gaza_strip.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/gaza_strip.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/serbia_and_montenegro.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/serbia_and_montenegro.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/mauritius.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/mauritius.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/georgia.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/georgia.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/gabon.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/gabon.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/philippines.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/philippines.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/lebanon.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/lebanon.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/barbados.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/barbados.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/indonesia.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/indonesia.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/equatorial_guinea.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/equatorial_guinea.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/netherlands.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/netherlands.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/rwanda.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/rwanda.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/mali.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/mali.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/brazil.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/brazil.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/tunisia.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/tunisia.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/palestine.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/palestine.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/gambia.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/gambia.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/lithuania.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/lithuania.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/clipperton_island.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/clipperton_island.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/mexico.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/mexico.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/trinidad_and_tobago.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/trinidad_and_tobago.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/new_caledonia.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/new_caledonia.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/suriname.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/suriname.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/vatican_city.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/vatican_city.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/sierra_leone.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/sierra_leone.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/bahrain.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/bahrain.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/botswana.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/botswana.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/venezuela.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/venezuela.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/tajikistan.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/tajikistan.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/mauritania.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/mauritania.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/greece.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/greece.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/costa_rica.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/costa_rica.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/american_samoa.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/american_samoa.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/latvia.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/latvia.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/martinique.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/martinique.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/bhutan.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/bhutan.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/afghanistan.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/afghanistan.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/sudan.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/sudan.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/zimbabwe.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/zimbabwe.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/niger.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/niger.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/isle_of_man.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/isle_of_man.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/pakistan.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/pakistan.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/guernsey.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/guernsey.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/guatemala.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/guatemala.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/india.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/india.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/cambodia.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/cambodia.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/taaf.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/taaf.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/portugal.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/portugal.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/tonga.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/tonga.png"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-mdpi/poland.png",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-mdpi/poland.png"
+    }
+]

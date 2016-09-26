@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-hdpi-v4/connect_selector.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-hdpi/connect_selector.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-hdpi-v4/segmented_button_background_middle.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-hdpi/segmented_button_background_middle.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-hdpi-v4/segmented_button_background_last.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-hdpi/segmented_button_background_last.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-hdpi-v4/segmented_button_background_unique.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-hdpi/segmented_button_background_unique.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-hdpi-v4/segmented_button_background_first.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-hdpi/segmented_button_background_first.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-hdpi-v4/progressdrawable.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-hdpi/progressdrawable.xml"
+    },
+    {
+        "merged": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/build/intermediates/res/merged/debug/drawable-hdpi-v4/roud_button.xml",
+        "source": "/Users/intermarketsecurities/Desktop/Projects/Android/OneVPN/res/drawable-hdpi/roud_button.xml"
+    }
+]
