@@ -185,7 +185,7 @@ public class ServerActivity extends Activity implements View.OnClickListener {
             }
         });
 
-        popupMenu = new PopupWindow(parent, LayoutParams.FILL_PARENT, LayoutParams.FILL_PARENT, true);
+        popupMenu = new PopupWindow(parent, LayoutParams.MATCH_PARENT, LayoutParams.MATCH_PARENT, true);
         popupMenu.setOutsideTouchable(true);
         popupMenu.setTouchable(true);
         popupMenu.setBackgroundDrawable(new BitmapDrawable());
@@ -219,7 +219,7 @@ public class ServerActivity extends Activity implements View.OnClickListener {
         });
 
 
-        popupExit = new PopupWindow(parent, LayoutParams.FILL_PARENT, LayoutParams.FILL_PARENT, true);
+        popupExit = new PopupWindow(parent, LayoutParams.MATCH_PARENT, LayoutParams.MATCH_PARENT, true);
         popupExit.setOutsideTouchable(true);
         popupExit.setTouchable(true);
         popupExit.setBackgroundDrawable(new BitmapDrawable());

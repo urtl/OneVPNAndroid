@@ -3,7 +3,7 @@
 <resources>
    
    <declare-styleable name="FileSelectLayout">
-        <attr name="title" format="string|reference" />
+        <attr name="title1" format="string|reference" />
         <attr name="certificate" format="boolean" />
         <!--     <attr name="taskid" format="integer" /> -->
         <attr name="showClear" format="boolean" />

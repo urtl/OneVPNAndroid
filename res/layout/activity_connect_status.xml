@@ -7,7 +7,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="80dp"
+        android:layout_height="65dp"
         android:orientation="horizontal"
         android:gravity="center_vertical"
         android:paddingLeft="10dp"
@@ -23,8 +23,8 @@
             android:layout_weight="1"/>
         <ImageView
             android:id="@+id/imgMenu"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
             android:src="@drawable/png_top_menu"/>
     </LinearLayout>
     <View
@@ -32,7 +32,7 @@
         android:layout_height="2dp"
         android:background="@drawable/png_top_line"/>
     <TextView
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Connection Status"
@@ -40,7 +40,7 @@
         android:textSize="20sp"
         android:visibility="visible"/>
     <LinearLayout
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -52,18 +52,21 @@
             android:textColor="#ffffff"
             android:textSize="20sp"
             android:visibility="visible"/>
+
         <TextView
             android:id="@+id/txtIpAddress"
             android:layout_marginLeft="5dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="192.168.1.101"
+            android:focusable="true"
             android:textColor="#ffffff"
+            android:background="@android:drawable/divider_horizontal_bright"
             android:textSize="20sp"
             android:visibility="visible"/>
     </LinearLayout>
     <ProgressBar
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
         style="@style/tallerBarStyle"
@@ -77,17 +80,22 @@
         android:progress="45"/>
     <TextView
         android:id="@+id/txtConnectStatus"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Not connected"
         android:textColor="#ffffff"
         android:textSize="18sp"
         android:visibility="visible"/>
+
     <View
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"/>
+        android:layout_weight="1"
+        android:alpha="0"
+        android:id="@+id/view" >
+        </View>
+
     <LinearLayout
         android:id="@+id/linearConnect"
         android:layout_width="wrap_content"
@@ -96,19 +104,19 @@
         android:gravity="center">
         <ImageView
             android:id="@+id/imgConnectStatus"
-            android:layout_width="240dp"
-            android:layout_height="240dp"
+            android:layout_width="135dp"
+            android:layout_height="130dp"
             android:scaleType="fitXY"
             android:src="@drawable/png_btn_connect"/>
         <TextView
             android:layout_marginBottom="10dp"
-            android:layout_marginLeft="10dp"
             android:id="@+id/txtConnectLabel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="TAP TO CONNECT"
             android:textColor="#ffffff"
-            android:textSize="16sp"
-            android:visibility="visible"/>
+            android:textSize="12sp"
+            android:visibility="visible"
+            />
     </LinearLayout>
 </LinearLayout>

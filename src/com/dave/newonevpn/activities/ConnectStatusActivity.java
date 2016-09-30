@@ -43,18 +43,16 @@ import org.apache.http.message.BasicNameValuePair;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-
 import java.net.InetAddress;
 import java.net.NetworkInterface;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Enumeration;
 import java.util.List;
-
 /**
  * Created by gustaf on 11/2/15.
  */
-public class ConnectStatusActivity extends Activity implements View.OnClickListener {
+public class ConnectStatusActivity extends Activity implements View.OnClickListener{
 
     boolean showPassword = false;
     private CommonAsyncTask mAsyncTask = null;
@@ -96,7 +94,6 @@ public class ConnectStatusActivity extends Activity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_connect_status);
-
         imgMenu = (ImageView)findViewById(R.id.imgMenu);
         txtIpAddress = (TextView)findViewById(R.id.txtIpAddress);
         txtConnectStatus = (TextView)findViewById(R.id.txtConnectStatus);
@@ -104,7 +101,6 @@ public class ConnectStatusActivity extends Activity implements View.OnClickListe
         linearConnect = (LinearLayout)findViewById(R.id.linearConnect);
         imgConnectStatus = (ImageView)findViewById(R.id.imgConnectStatus);
         txtConnectLabel = (TextView)findViewById(R.id.txtConnectLabel);
-
         progress.setProgress(0);
 
         imgMenu.setOnClickListener(this);
@@ -128,7 +124,7 @@ public class ConnectStatusActivity extends Activity implements View.OnClickListe
             }
         }else{
             if( Global.sp.getBoolean("Connect", false) ) {
-                txtConnectStatus.setText("CONNECTED");
+                txtConnectStatus.setText("Connected!");
                 progress.setProgress(100);
                 imgConnectStatus.setImageDrawable(getResources().getDrawable(R.drawable.png_btn_disconnect));
                 txtConnectLabel.setText("TAP TO DISCONNECT");
@@ -140,10 +136,7 @@ public class ConnectStatusActivity extends Activity implements View.OnClickListe
                 imgMenu.setVisibility(View.VISIBLE);
             }
         }
-
         setResult(RESULT_CANCELED);
-
-
     }
 
     @Override
@@ -246,6 +239,7 @@ public class ConnectStatusActivity extends Activity implements View.OnClickListe
                 progress.setProgress(nPos);
                 imgConnectStatus.setImageDrawable(getResources().getDrawable(R.drawable.png_btn_cancel));
                 txtConnectLabel.setText("TAP TO CANCEL");
+                txtConnectStatus.setText("Connecting...");
                 handler.postAtTime(runnable, System.currentTimeMillis() + interval);
                 handler.postDelayed(runnable, interval);
 
@@ -744,7 +738,7 @@ public class ConnectStatusActivity extends Activity implements View.OnClickListe
                 bConnecting = false;
                 Global.ed.putBoolean("Connect", true);
                 Global.ed.commit();
-                txtConnectStatus.setText("CONNECTED");
+                txtConnectStatus.setText("Connected!");
                 progress.setProgress(100);
                 imgConnectStatus.setImageDrawable(getResources().getDrawable(R.drawable.png_btn_disconnect));
                 txtConnectLabel.setText("TAP TO DISCONNECT");
@@ -776,7 +770,7 @@ public class ConnectStatusActivity extends Activity implements View.OnClickListe
                 bConnecting = false;
                 imgConnectStatus.setImageDrawable(getResources().getDrawable(R.drawable.png_btn_connect));
                 txtConnectLabel.setText("TAP TO CONNECT");
-                txtConnectStatus.setText("DISCONNECTED");
+                txtConnectStatus.setText("Not Connected");
                 imgMenu.setVisibility(View.VISIBLE);
                 progress.setProgress(0);
             }else if( arg1.getExtras().getString("detailstatus").equals("NEXTOVPNTRY") ){
@@ -794,6 +788,7 @@ public class ConnectStatusActivity extends Activity implements View.OnClickListe
             progress.setProgress(nPos);
             imgConnectStatus.setImageDrawable(getResources().getDrawable(R.drawable.png_btn_connect));
             txtConnectLabel.setText("TAP TO CONNECT");
+            txtConnectStatus.setText("Not Connected");
 
             imgMenu.setVisibility(View.VISIBLE);
             Global.ed.putBoolean("Connect", false);

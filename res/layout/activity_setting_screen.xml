@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:orientation="vertical"
+    android:id="@+id/setting_layout_id"
     android:background="@drawable/png_background"
+    android:alpha=".75"
     android:gravity="center_horizontal">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="80dp"
+        android:layout_height="65dp"
         android:orientation="horizontal"
         android:gravity="center_vertical"
         android:paddingLeft="10dp"
@@ -23,10 +26,11 @@
             android:layout_weight="1"/>
         <ImageView
             android:id="@+id/imgMenu"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
             android:src="@drawable/png_top_menu"/>
     </LinearLayout>
+
     <View
         android:layout_width="match_parent"
         android:layout_height="2dp"
@@ -38,47 +42,69 @@
         android:layout_weight="1"
         android:orientation="vertical"
         android:gravity="center_horizontal"
-        android:padding="30dp">
+        >
         <LinearLayout
-            android:padding="5dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:gravity="center_vertical">
+            android:layout_weight="0.27">
             <ImageView
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
                 android:src="@drawable/png_setting"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Protocol Settings"
-                android:textColor="#ffffff"
-                android:textSize="20sp"/>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:layout_marginBottom="10dp"
+                android:alpha=".35"
+                />
         </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Protocol Settings"
+            android:textColor="#ffffff"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"/>
 
         <Spinner
             android:popupBackground="#2f3731"
             android:layout_marginTop="30dp"
             android:id="@+id/protocolSpinner"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
             android:layout_width="match_parent"
             android:layout_height="35dp"
             android:spinnerMode="dropdown"
+            android:layoutDirection="ltr"
+            android:layout_gravity="left"
             android:dropDownSelector="@drawable/spinner_selector"
-            android:background="@drawable/setting_spinner"></Spinner>
+            android:background="@drawable/setting_spinner" />
 
         <LinearLayout
-            android:layout_marginTop="10dp"
-            android:paddingLeft="25dp"
-            android:paddingRight="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="14dp"
             android:layout_width="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="7dp"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:gravity="center">
+            android:gravity="center"
+            android:layout_weight="0.11">
             <RadioGroup
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:orientation="horizontal"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
                 android:gravity="center">
             <RadioButton
                 android:scaleX="1.2"
@@ -91,7 +117,8 @@
                 android:checked="true"
                 android:paddingLeft="5dp"
                 android:text="TCP"
-                android:textSize="20sp"/>
+                android:textColor="#ffffff"
+                android:textSize="16sp"/>
             <View
                 android:layout_width="100dp"
                 android:layout_height="1dp"
@@ -108,35 +135,38 @@
                 android:checked="false"
                 android:paddingLeft="5dp"
                 android:text="UDP"
-                android:textSize="20sp"/>
+                android:textSize="16sp"/>
             </RadioGroup>
         </LinearLayout>
-
         <Spinner
-            android:layout_marginTop="10dp"
             android:id="@+id/ModeSpinner"
             android:layout_width="match_parent"
             android:layout_height="35dp"
             android:spinnerMode="dropdown"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
             android:popupBackground="#2f3731"
+            android:gravity="left"
             android:dropDownSelector="@drawable/spinner_selector"
-            android:background="@drawable/setting_spinner"></Spinner>
-
+            android:background="@drawable/setting_spinner">
+        </Spinner>
         <EditText
             android:enabled="false"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="20dp"
             android:id="@+id/edtPortNo"
-            android:singleLine="true"
+            android:maxLines="1"
             android:layout_width="200dp"
             android:layout_height="40dp"
             android:drawableLeft="@drawable/png_setting_port_edit_icon"
             android:drawablePadding="10dp"
             android:textColor="#ffffff"
             android:background="@drawable/edittext_bottom_line"
-            android:textColorHint="#ffffff"
+            android:textColorHint="#D1D1D1"
             android:hint="Port No"/>
         <CheckBox
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="60dp"
             android:id="@+id/chkAutoReconnect"
             android:paddingLeft="5dp"
             android:layout_width="match_parent"
@@ -145,7 +175,9 @@
             android:button="@drawable/checkbox_listener"
             android:textColor="#ffffff"/>
         <CheckBox
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="60dp"
             android:id="@+id/chkLogWindow"
             android:paddingLeft="5dp"
             android:layout_width="match_parent"
@@ -153,20 +185,18 @@
             android:text="Show Logs"
             android:button="@drawable/checkbox_listener"
             android:textColor="#ffffff"/>
-
         <View
             android:layout_width="1dp"
             android:layout_height="0dp"
             android:layout_weight="1"/>
         <Button
             android:id="@+id/btnSave"
-            android:layout_width="200dp"
+            android:layout_width="180dp"
             android:layout_height="45dp"
-            android:layout_marginBottom="10dp"
+            android:layout_marginBottom="25dp"
             android:text="Save"
-            android:textSize="20sp"
+            android:textSize="22sp"
             android:textColor="#ffffff"
             android:background="@drawable/button_listener"/>
     </LinearLayout>
-
 </LinearLayout>

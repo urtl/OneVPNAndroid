@@ -19,8 +19,8 @@
             android:orientation="horizontal"
             android:gravity="center_vertical">
             <ImageView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
                 android:src="@drawable/png_menu_about"/>
             <TextView
                 android:layout_width="wrap_content"
@@ -39,8 +39,8 @@
             android:orientation="horizontal"
             android:gravity="center_vertical">
             <ImageView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
                 android:src="@drawable/png_menu_about"/>
             <TextView
                 android:layout_width="wrap_content"
@@ -60,8 +60,8 @@
             android:orientation="horizontal"
             android:gravity="center_vertical">
             <ImageView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
                 android:src="@drawable/png_menu_choose_server"/>
             <TextView
                 android:layout_width="wrap_content"
@@ -80,8 +80,8 @@
             android:orientation="horizontal"
             android:gravity="center_vertical">
             <ImageView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
                 android:src="@drawable/png_menu_profile"/>
             <TextView
                 android:layout_width="wrap_content"
@@ -100,8 +100,8 @@
             android:orientation="horizontal"
             android:gravity="center_vertical">
             <ImageView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
                 android:src="@drawable/png_menu_faq"/>
             <TextView
                 android:layout_width="wrap_content"
@@ -120,8 +120,8 @@
             android:orientation="horizontal"
             android:gravity="center_vertical">
             <ImageView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
                 android:src="@drawable/png_menu_share"/>
             <TextView
                 android:layout_width="wrap_content"
@@ -140,8 +140,8 @@
             android:orientation="horizontal"
             android:gravity="center_vertical">
             <ImageView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
                 android:src="@drawable/png_menu_upgrade"/>
             <TextView
                 android:layout_width="wrap_content"
@@ -160,8 +160,8 @@
             android:orientation="horizontal"
             android:gravity="center_vertical">
             <ImageView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
                 android:src="@drawable/png_menu_setting"/>
             <TextView
                 android:layout_width="wrap_content"
@@ -170,6 +170,7 @@
                 android:text="Setting"
                 android:layout_marginLeft="5dp"/>
         </LinearLayout>
+
         <LinearLayout
             android:clickable="true"
             android:id="@+id/linearMenuExit"
@@ -180,8 +181,10 @@
             android:orientation="horizontal"
             android:gravity="center_vertical">
             <ImageView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
                 android:src="@drawable/png_menu_exit"/>
             <TextView
                 android:layout_width="wrap_content"

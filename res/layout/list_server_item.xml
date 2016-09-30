@@ -12,14 +12,19 @@
         android:orientation="horizontal"
         android:gravity="center_vertical"
         android:padding="5dp">
+
         <ImageView
             android:id="@+id/imgCountryFlag"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="center_vertical"
             android:src="@drawable/usa"/>
+
         <TextView
             android:id="@+id/txtServerName"
-            android:layout_marginLeft="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center_vertical"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="#ffffff"
@@ -31,8 +36,10 @@
             android:layout_weight="1"/>
         <ImageView
             android:id="@+id/imgSelectStatus"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="15dp"
             android:src="@drawable/png_radio_select"/>
     </LinearLayout>
     <LinearLayout
