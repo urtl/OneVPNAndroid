@@ -51,8 +51,6 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-    <!-- <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> -->
-    <!-- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/> -->
     <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
@@ -63,8 +61,6 @@
         android:permissionGroup="android.permission-group.NETWORK"
         android:protectionLevel="dangerous" />
 
-
-
     <application
         android:allowBackup="true"
         android:icon="@drawable/onevpn"
@@ -72,6 +68,9 @@
         android:logo="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@android:style/Theme.Black.NoTitleBar">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDgeYiL6Vki3kev1Jt7m7KKgBJrklUdMwo"/>
         <activity
             android:name="com.newonevpn.vpn.VPNPreferences"
             android:windowSoftInputMode="stateHidden" />
@@ -234,7 +233,11 @@
             android:authorities="com.newonevpn.vpn.FileProvider"
             android:exported="true"
             android:grantUriPermissions="true"
-            tools:ignore="ExportedContentProvider" />
+            tools:ignore="ExportedContentProvider" /><!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").

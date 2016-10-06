@@ -33,7 +33,7 @@ public class FileSelectLayout extends LinearLayout implements OnClickListener {
 
 		TypedArray ta = context.obtainStyledAttributes(attrset,R.styleable.FileSelectLayout);
 
-		mTitle = ta.getString(R.styleable.FileSelectLayout_title);
+		mTitle = ta.getString(R.styleable.FileSelectLayout_title1);
 
 		TextView tview = (TextView) findViewById(R.id.file_title);
 		tview.setText(mTitle);

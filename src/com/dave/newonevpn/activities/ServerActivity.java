@@ -74,6 +74,7 @@ public class ServerActivity extends Activity implements View.OnClickListener {
                 Global.g_selectedServerInfo.name = Global.g_allDNSLists.get(position).name;
                 Global.g_selectedServerInfo.dns = Global.g_allDNSLists.get(position).dns;
                 Global.g_selectedServerInfo.country = Global.g_allDNSLists.get(position).country;
+                Global.g_selectedServerInfo.city = Global.g_allDNSLists.get(position).city;
                 Global.g_selectedServerInfo.protocol = Global.g_allDNSLists.get(position).protocols.get(0).protocol;
                 Global.g_selectedServerInfo.port = Global.g_allDNSLists.get(position).protocols.get(0).ports.get(0).port;
                 Global.g_selectedServerInfo.id = Global.g_allDNSLists.get(position).protocols.get(0).ports.get(0).id;
@@ -83,11 +84,13 @@ public class ServerActivity extends Activity implements View.OnClickListener {
                 Global.ed.putString("servercountry", Global.g_selectedServerInfo.country);
                 Global.ed.putString("servername", Global.g_selectedServerInfo.name);
                 Global.ed.putString("serverprotocol", Global.g_selectedServerInfo.protocol);
+                Global.ed.putString("servercity", Global.g_selectedServerInfo.city);
                 Global.ed.putString("serverport", Global.g_selectedServerInfo.port);
                 Global.ed.commit();
 
                 Global.g_selectedDNSInfo = Global.g_allDNSLists.get(position);
                 Intent intent = new Intent(ServerActivity.this, ConnectStatusActivity.class);
+                intent.putExtra("Selected_Server_Position",position);
                 startActivityForResult(intent, 1);
                 //showLoginPopup();
             }

@@ -11,4 +11,5 @@ public class DNSItem {
     public String country;
     public boolean bSelected = false;
     public ArrayList<ProtocolItem> protocols = new ArrayList<>();
+    public String city;
 }

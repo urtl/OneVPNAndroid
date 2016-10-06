@@ -11,4 +11,5 @@ public class ServerItem
     public String dns;
     public String port;
     public String protocol;
+    public String city;
 }

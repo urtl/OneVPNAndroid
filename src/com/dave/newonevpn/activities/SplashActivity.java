@@ -100,6 +100,7 @@ public class SplashActivity extends Activity {
                                 ServerItem serverItem = new ServerItem();
                                 serverItem.id = objServer.getString("id");
                                 serverItem.name = objServer.getString("name");
+                                serverItem.city = objServer.getString("city");
                                 serverItem.country = objServer.getString("country");
                                 serverItem.dns = objServer.getString("dns");
                                 serverItem.port = objServer.getString("port");
