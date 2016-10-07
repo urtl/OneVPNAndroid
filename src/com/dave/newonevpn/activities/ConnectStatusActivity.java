@@ -176,6 +176,7 @@ public class ConnectStatusActivity extends Activity implements View.OnClickListe
                 imgConnectStatus.setImageDrawable(getResources().getDrawable(R.drawable.btn_disconnect));
                 txtConnectLabel.setText("TAP TO DISCONNECT");
                 imgMenu.setVisibility(View.GONE);
+//                showMarkerOntheServer();
             } else {
                 txtConnectStatus.setText("Not Connected");
                 imgConnectStatus.setImageDrawable(getResources().getDrawable(R.drawable.btn_connect));
@@ -688,17 +689,14 @@ public class ConnectStatusActivity extends Activity implements View.OnClickListe
                     // location is enabled
                     googleMap.setMyLocationEnabled(true);
                     Location myLocation = locationManager.getLastKnownLocation(LocationManager.PASSIVE_PROVIDER);
-                    final double[] longitudeeee = {myLocation.getLongitude()};
-                    final double[] latitudeeee = {myLocation.getLatitude()};
-                    final LocationListener locationListener = new LocationListener() {
-                        public void onLocationChanged(Location location) {
-                            longitudeeee[0] = location.getLongitude();
-                            latitudeeee[0] = location.getLatitude();
-                        }
-                    };
-                    LatLng latLng = new LatLng(latitudeeee[0], longitudeeee[0]);
-                    googleMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
-                    googleMap.animateCamera(CameraUpdateFactory.zoomTo(4));
+                    if(myLocation != null)
+                    {
+                        final double longitudeeee = myLocation.getLongitude();
+                        final double latitudeeee = myLocation.getLatitude();
+                        LatLng latLng = new LatLng(latitudeeee, longitudeeee);
+                        mMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
+                        mMap.animateCamera(CameraUpdateFactory.zoomTo(4));
+                    }
                 }
             }
         }
@@ -721,17 +719,14 @@ public class ConnectStatusActivity extends Activity implements View.OnClickListe
                 // location is enabled
                 googleMap.setMyLocationEnabled(true);
                 Location myLocation = locationManager.getLastKnownLocation(LocationManager.PASSIVE_PROVIDER);
-                final double[] longitudeeee = {myLocation.getLongitude()};
-                final double[] latitudeeee = {myLocation.getLatitude()};
-                final LocationListener locationListener = new LocationListener() {
-                    public void onLocationChanged(Location location) {
-                        longitudeeee[0] = location.getLongitude();
-                        latitudeeee[0] = location.getLatitude();
-                    }
-                };
-                LatLng latLng = new LatLng(latitudeeee[0], longitudeeee[0]);
-                googleMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
-                googleMap.animateCamera(CameraUpdateFactory.zoomTo(4));
+                if(myLocation != null)
+                {
+                    final double longitudeeee = myLocation.getLongitude();
+                    final double latitudeeee = myLocation.getLatitude();
+                    LatLng latLng = new LatLng(latitudeeee, longitudeeee);
+                    mMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
+                    mMap.animateCamera(CameraUpdateFactory.zoomTo(4));
+                }
             }
         }
 
@@ -757,10 +752,13 @@ public class ConnectStatusActivity extends Activity implements View.OnClickListe
             } catch (IOException e) {
                 e.printStackTrace();
             }
-            if (ll.size() > 0) {
-                mMap.addMarker(new MarkerOptions().position(ll.get(0)));
-                mMap.moveCamera(CameraUpdateFactory.newLatLng(ll.get(0)));
-                mMap.animateCamera(CameraUpdateFactory.zoomTo(4));
+            if (ll != null) {
+                if (ll.size()>0)
+                {
+                    mMap.addMarker(new MarkerOptions().position(ll.get(0)));
+                    mMap.moveCamera(CameraUpdateFactory.newLatLng(ll.get(0)));
+                    mMap.animateCamera(CameraUpdateFactory.zoomTo(4));
+                }
             }
         }
     }
@@ -773,8 +771,53 @@ public class ConnectStatusActivity extends Activity implements View.OnClickListe
                 // TODO: Consider calling
                 requestPermissions(new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, 4);
             } else {
-                mMap.setMyLocationEnabled(true);
                 LocationManager locationManager = (LocationManager) getSystemService(LOCATION_SERVICE);
+                boolean gps_enabled = false;
+                boolean network_enabled = false;
+                try {
+                    gps_enabled = locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER);
+                } catch(Exception ex) {}
+
+                try {
+                    network_enabled = locationManager.isProviderEnabled(LocationManager.NETWORK_PROVIDER);
+                } catch(Exception ex) {}
+
+                if(!gps_enabled && !network_enabled) {
+                    // location is disabled
+                }
+                else{
+                    // location is enabled
+                    mMap.setMyLocationEnabled(true);
+                    Location myLocation = locationManager.getLastKnownLocation(LocationManager.PASSIVE_PROVIDER);
+                    if(myLocation != null)
+                    {
+                        final double longitudeeee = myLocation.getLongitude();
+                        final double latitudeeee = myLocation.getLatitude();
+                        LatLng latLng = new LatLng(latitudeeee, longitudeeee);
+                        mMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
+                        mMap.animateCamera(CameraUpdateFactory.zoomTo(4));
+                    }
+                }
+            }
+        }
+        else {
+            LocationManager locationManager = (LocationManager) getSystemService(LOCATION_SERVICE);
+            boolean gps_enabled = false;
+            boolean network_enabled = false;
+            try {
+                gps_enabled = locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER);
+            } catch(Exception ex) {}
+
+            try {
+                network_enabled = locationManager.isProviderEnabled(LocationManager.NETWORK_PROVIDER);
+            } catch(Exception ex) {}
+
+            if(!gps_enabled && !network_enabled) {
+                // location is disabled
+            }
+            else{
+                // location is enabled
+                mMap.setMyLocationEnabled(true);
                 Location myLocation = locationManager.getLastKnownLocation(LocationManager.PASSIVE_PROVIDER);
                 final double[] longitudeeee = {myLocation.getLongitude()};
                 final double[] latitudeeee = {myLocation.getLatitude()};
@@ -788,22 +831,6 @@ public class ConnectStatusActivity extends Activity implements View.OnClickListe
                 mMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
                 mMap.animateCamera(CameraUpdateFactory.zoomTo(4));
             }
-        }
-        else {
-            mMap.setMyLocationEnabled(true);
-            LocationManager locationManager = (LocationManager) getSystemService(LOCATION_SERVICE);
-            Location myLocation = locationManager.getLastKnownLocation(LocationManager.PASSIVE_PROVIDER);
-            final double[] longitudeeee = {myLocation.getLongitude()};
-            final double[] latitudeeee = {myLocation.getLatitude()};
-            final LocationListener locationListener = new LocationListener() {
-                public void onLocationChanged(Location location) {
-                    longitudeeee[0] = location.getLongitude();
-                    latitudeeee[0] = location.getLatitude();
-                }
-            };
-            LatLng latLng = new LatLng(latitudeeee[0], longitudeeee[0]);
-            mMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
-            mMap.animateCamera(CameraUpdateFactory.zoomTo(4));
         }
     }
     @Override
