@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="@drawable/png_background"
-    android:gravity="center_horizontal">
-
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent"
+    >
+    <fragment
+        class="com.google.android.gms.maps.MapFragment"
+        android:id="@+id/map"
+        android:layout_marginTop="65dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="65dp"
@@ -27,95 +32,111 @@
             android:layout_height="25dp"
             android:src="@drawable/png_top_menu"/>
     </LinearLayout>
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="2dp"
-        android:background="@drawable/png_top_line">
-    </View>
-    <TextView
-        android:layout_marginTop="10dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Connection Status"
-        android:textColor="#ffffff"
-        android:textSize="20sp"
-        android:visibility="visible"/>
-    <LinearLayout
-        android:layout_marginTop="10dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="IP"
-            android:textColor="#ffffff"
-            android:textSize="20sp"
-            android:visibility="visible"/>
-        <TextView
-            android:id="@+id/txtIpAddress"
-            android:layout_marginLeft="5dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="192.168.1.101"
-            android:focusable="true"
-            android:textColor="#ffffff"
-            android:background="@android:drawable/divider_horizontal_bright"
-            android:textSize="20sp"
-            android:visibility="visible"/>
-    </LinearLayout>
-    <ProgressBar
-        android:layout_marginTop="10dp"
-        android:paddingLeft="20dp"
-        android:paddingRight="20dp"
-        style="@style/tallerBarStyle"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/progress"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:max="100"
-        android:progressDrawable="@drawable/progressdrawable"
-        android:progress="45"/>
-    <TextView
-        android:id="@+id/txtConnectStatus"
-        android:layout_marginTop="10dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Not connected"
-        android:textColor="#ffffff"
-        android:textSize="18sp"
-        android:visibility="visible"/>
 
-    <fragment
-        class="com.google.android.gms.maps.MapFragment"
-        android:id="@+id/map"
+    <LinearLayout
         android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="65dp"
+        android:background="@drawable/overlayimage"
+        android:gravity="center_horizontal"
+        >
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/png_top_line">
+        </View>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Connection Status"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:visibility="visible"/>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="IP"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    android:visibility="visible"/>
+                <TextView
+                    android:id="@+id/txtIpAddress"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="192.168.1.101"
+                    android:focusable="true"
+                    android:textColor="#ffffff"
+                    android:background="@android:drawable/divider_horizontal_bright"
+                    android:textSize="20sp"
+                    android:visibility="visible"/>
+            </LinearLayout>
+            <ProgressBar
+                android:layout_marginTop="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                style="@style/tallerBarStyle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/progress"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:max="100"
+                android:progressDrawable="@drawable/progressdrawable"
+                android:progress="45"/>
+            <TextView
+                android:id="@+id/txtConnectStatus"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Not connected"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:visibility="visible"/>
+        </LinearLayout>
+    <View
         android:layout_height="0dp"
+        android:layout_width="match_parent"
         android:layout_weight="1"
         />
-    <LinearLayout
-        android:id="@+id/linearConnect"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:gravity="center">
-        <ImageView
-            android:id="@+id/imgConnectStatus"
-            android:layout_width="135dp"
-            android:layout_height="130dp"
-            android:scaleType="fitXY"
-            android:src="@drawable/png_btn_connect"/>
-        <TextView
-            android:layout_marginBottom="10dp"
-            android:id="@+id/txtConnectLabel"
+        <LinearLayout
+            android:id="@+id/linearConnect"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="TAP TO CONNECT"
-            android:textColor="#ffffff"
-            android:textSize="12sp"
-            android:visibility="visible"
-            />
+            android:orientation="vertical"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/imgConnectStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:layout_marginBottom="8dp"
+                android:src="@drawable/btn_connect"/>
+            <TextView
+                android:layout_marginBottom="15dp"
+                android:id="@+id/txtConnectLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TAP TO CONNECT"
+                android:textColor="#ffffff"
+                android:textSize="12sp"
+                android:visibility="visible"
+                />
+
+        </LinearLayout>
     </LinearLayout>
-</LinearLayout>
+</FrameLayout>

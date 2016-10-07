@@ -173,12 +173,12 @@ public class ConnectStatusActivity extends Activity implements View.OnClickListe
             if (Global.sp.getBoolean("Connect", false)) {
                 txtConnectStatus.setText("Connected!");
                 progress.setProgress(100);
-                imgConnectStatus.setImageDrawable(getResources().getDrawable(R.drawable.png_btn_disconnect));
+                imgConnectStatus.setImageDrawable(getResources().getDrawable(R.drawable.btn_disconnect));
                 txtConnectLabel.setText("TAP TO DISCONNECT");
                 imgMenu.setVisibility(View.GONE);
             } else {
                 txtConnectStatus.setText("Not Connected");
-                imgConnectStatus.setImageDrawable(getResources().getDrawable(R.drawable.png_btn_connect));
+                imgConnectStatus.setImageDrawable(getResources().getDrawable(R.drawable.btn_connect));
                 txtConnectLabel.setText("TAP TO CONNECT");
                 imgMenu.setVisibility(View.VISIBLE);
             }
@@ -277,7 +277,7 @@ public class ConnectStatusActivity extends Activity implements View.OnClickListe
                 bConnecting = true;
                 nPos = 0;
                 progress.setProgress(nPos);
-                imgConnectStatus.setImageDrawable(getResources().getDrawable(R.drawable.png_btn_cancel));
+                imgConnectStatus.setImageDrawable(getResources().getDrawable(R.drawable.btn_cancel));
                 txtConnectLabel.setText("TAP TO CANCEL");
                 txtConnectStatus.setText("Connecting...");
                 handler.postAtTime(runnable, System.currentTimeMillis() + interval);
@@ -652,7 +652,6 @@ public class ConnectStatusActivity extends Activity implements View.OnClickListe
         }
         return null;
     }
-
     public void ReceiveBroadCast() {
         IntentFilter filter = new IntentFilter("com.newonevpn.vpn.VPN_STATUS");
         if (filter != null)
@@ -664,25 +663,78 @@ public class ConnectStatusActivity extends Activity implements View.OnClickListe
         mMap = googleMap;
         List<Address> addresses = null;
         List<LatLng> ll = null;
-        if (checkSelfPermission(Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && checkSelfPermission(Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
-            // TODO: Consider calling
-            requestPermissions(new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, 4);
-        } else {
-            googleMap.setMyLocationEnabled(true);
-            LocationManager locationManager = (LocationManager) getSystemService(LOCATION_SERVICE);
-            Location myLocation = locationManager.getLastKnownLocation(LocationManager.PASSIVE_PROVIDER);
-            final double[] longitudeeee = {myLocation.getLongitude()};
-            final double[] latitudeeee = {myLocation.getLatitude()};
-            final LocationListener locationListener = new LocationListener() {
-                public void onLocationChanged(Location location) {
-                    longitudeeee[0] = location.getLongitude();
-                    latitudeeee[0] = location.getLatitude();
+        if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.M)
+        {
+
+            if (checkSelfPermission(Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && checkSelfPermission(Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+                // TODO: Consider calling
+                requestPermissions(new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, 4);
+            } else {
+                LocationManager locationManager = (LocationManager) getSystemService(LOCATION_SERVICE);
+                boolean gps_enabled = false;
+                boolean network_enabled = false;
+                try {
+                    gps_enabled = locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER);
+                } catch(Exception ex) {}
+
+                try {
+                    network_enabled = locationManager.isProviderEnabled(LocationManager.NETWORK_PROVIDER);
+                } catch(Exception ex) {}
+
+                if(!gps_enabled && !network_enabled) {
+                    // location is disabled
                 }
-            };
-            LatLng latLng = new LatLng(latitudeeee[0], longitudeeee[0]);
-            googleMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
-            googleMap.animateCamera(CameraUpdateFactory.zoomTo(4));
+                else{
+                    // location is enabled
+                    googleMap.setMyLocationEnabled(true);
+                    Location myLocation = locationManager.getLastKnownLocation(LocationManager.PASSIVE_PROVIDER);
+                    final double[] longitudeeee = {myLocation.getLongitude()};
+                    final double[] latitudeeee = {myLocation.getLatitude()};
+                    final LocationListener locationListener = new LocationListener() {
+                        public void onLocationChanged(Location location) {
+                            longitudeeee[0] = location.getLongitude();
+                            latitudeeee[0] = location.getLatitude();
+                        }
+                    };
+                    LatLng latLng = new LatLng(latitudeeee[0], longitudeeee[0]);
+                    googleMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
+                    googleMap.animateCamera(CameraUpdateFactory.zoomTo(4));
+                }
+            }
         }
+        else{
+            LocationManager locationManager = (LocationManager) getSystemService(LOCATION_SERVICE);
+            boolean gps_enabled = false;
+            boolean network_enabled = false;
+            try {
+                gps_enabled = locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER);
+            } catch(Exception ex) {}
+
+            try {
+                network_enabled = locationManager.isProviderEnabled(LocationManager.NETWORK_PROVIDER);
+            } catch(Exception ex) {}
+
+            if(!gps_enabled && !network_enabled) {
+                // location is disabled
+            }
+            else{
+                // location is enabled
+                googleMap.setMyLocationEnabled(true);
+                Location myLocation = locationManager.getLastKnownLocation(LocationManager.PASSIVE_PROVIDER);
+                final double[] longitudeeee = {myLocation.getLongitude()};
+                final double[] latitudeeee = {myLocation.getLatitude()};
+                final LocationListener locationListener = new LocationListener() {
+                    public void onLocationChanged(Location location) {
+                        longitudeeee[0] = location.getLongitude();
+                        latitudeeee[0] = location.getLatitude();
+                    }
+                };
+                LatLng latLng = new LatLng(latitudeeee[0], longitudeeee[0]);
+                googleMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
+                googleMap.animateCamera(CameraUpdateFactory.zoomTo(4));
+            }
+        }
+
     }
 
     public void showMarkerOntheServer() {
@@ -714,11 +766,30 @@ public class ConnectStatusActivity extends Activity implements View.OnClickListe
     }
 
     @RequiresApi(api = Build.VERSION_CODES.M)
-    public void returnToCurrentLocation() {
-        if (checkSelfPermission(Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && checkSelfPermission(Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
-            // TODO: Consider calling
-            requestPermissions(new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, 4);
-        } else {
+    public void returnToCurrentLocation()
+    {
+        if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.M){
+            if (checkSelfPermission(Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && checkSelfPermission(Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+                // TODO: Consider calling
+                requestPermissions(new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, 4);
+            } else {
+                mMap.setMyLocationEnabled(true);
+                LocationManager locationManager = (LocationManager) getSystemService(LOCATION_SERVICE);
+                Location myLocation = locationManager.getLastKnownLocation(LocationManager.PASSIVE_PROVIDER);
+                final double[] longitudeeee = {myLocation.getLongitude()};
+                final double[] latitudeeee = {myLocation.getLatitude()};
+                final LocationListener locationListener = new LocationListener() {
+                    public void onLocationChanged(Location location) {
+                        longitudeeee[0] = location.getLongitude();
+                        latitudeeee[0] = location.getLatitude();
+                    }
+                };
+                LatLng latLng = new LatLng(latitudeeee[0], longitudeeee[0]);
+                mMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
+                mMap.animateCamera(CameraUpdateFactory.zoomTo(4));
+            }
+        }
+        else {
             mMap.setMyLocationEnabled(true);
             LocationManager locationManager = (LocationManager) getSystemService(LOCATION_SERVICE);
             Location myLocation = locationManager.getLastKnownLocation(LocationManager.PASSIVE_PROVIDER);
@@ -733,7 +804,7 @@ public class ConnectStatusActivity extends Activity implements View.OnClickListe
             LatLng latLng = new LatLng(latitudeeee[0], longitudeeee[0]);
             mMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
             mMap.animateCamera(CameraUpdateFactory.zoomTo(4));
-    }
+        }
     }
     @Override
     public void onConnected(@Nullable Bundle bundle) {
@@ -744,12 +815,10 @@ public class ConnectStatusActivity extends Activity implements View.OnClickListe
     public void onConnectionSuspended(int i) {
 
     }
-
     @Override
     public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
 
     }
-
     /**
      * ATTENTION: This was auto-generated to implement the App Indexing API.
      * See https://g.co/AppIndexing/AndroidStudio for more information.
@@ -765,7 +834,6 @@ public class ConnectStatusActivity extends Activity implements View.OnClickListe
                 .setActionStatus(Action.STATUS_TYPE_COMPLETED)
                 .build();
     }
-
     @Override
     public void onStart() {
         mGoogleApiClient.connect();
@@ -842,7 +910,7 @@ public class ConnectStatusActivity extends Activity implements View.OnClickListe
                     //Toast.makeText(ConnectStatusActivity.this,"Service Not Available",Toast.LENGTH_SHORT).show();
                     e.printStackTrace();
                 }
-                imgConnectStatus.setImageDrawable(getResources().getDrawable(R.drawable.png_btn_disconnect));
+                imgConnectStatus.setImageDrawable(getResources().getDrawable(R.drawable.btn_disconnect));
                 txtConnectLabel.setText("TAP TO DISCONNECT");
                 Lock(true);
                 getIpAddress();
@@ -851,7 +919,7 @@ public class ConnectStatusActivity extends Activity implements View.OnClickListe
 
             } else if (strStatus.equals("LEVEL_NOTCONNECTED")) {
                 bConnecting = false;
-                imgConnectStatus.setImageDrawable(getResources().getDrawable(R.drawable.png_btn_connect));
+                imgConnectStatus.setImageDrawable(getResources().getDrawable(R.drawable.btn_connect));
                 txtConnectLabel.setText("TAP TO CONNECT");
                 txtConnectStatus.setText("Not Connected");
                 returnToCurrentLocation();
@@ -860,7 +928,7 @@ public class ConnectStatusActivity extends Activity implements View.OnClickListe
                 progress.setProgress(0);
             } else if (strStatus.equals("connection aborted")) {
                 bConnecting = false;
-                imgConnectStatus.setImageDrawable(getResources().getDrawable(R.drawable.png_btn_connect));
+                imgConnectStatus.setImageDrawable(getResources().getDrawable(R.drawable.btn_connect));
                 txtConnectLabel.setText("TAP TO CONNECT");
                 txtConnectStatus.setText("Not Connected");
                 returnToCurrentLocation();
@@ -869,7 +937,7 @@ public class ConnectStatusActivity extends Activity implements View.OnClickListe
                 progress.setProgress(0);
             } else if (strStatus.equals("DISCONNECTED")) {
                 bConnecting = false;
-                imgConnectStatus.setImageDrawable(getResources().getDrawable(R.drawable.png_btn_connect));
+                imgConnectStatus.setImageDrawable(getResources().getDrawable(R.drawable.btn_connect));
                 txtConnectLabel.setText("TAP TO CONNECT");
                 txtConnectStatus.setText("Not Connected");
                 returnToCurrentLocation();
@@ -890,7 +958,7 @@ public class ConnectStatusActivity extends Activity implements View.OnClickListe
             bConnecting = false;
             nPos = 0;
             progress.setProgress(nPos);
-            imgConnectStatus.setImageDrawable(getResources().getDrawable(R.drawable.png_btn_connect));
+            imgConnectStatus.setImageDrawable(getResources().getDrawable(R.drawable.btn_connect));
             txtConnectLabel.setText("TAP TO CONNECT");
             txtConnectStatus.setText("Not Connected");
 
